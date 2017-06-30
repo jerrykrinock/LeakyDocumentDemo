@@ -13,10 +13,16 @@
 		487BDE9A1F0598D300D05357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487BDE991F0598D300D05357 /* Assets.xcassets */; };
 		487BDE9D1F0598D300D05357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487BDE9B1F0598D300D05357 /* Main.storyboard */; };
 		487BDEA01F0598D300D05357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 487BDE9F1F0598D300D05357 /* main.m */; };
+		488583381F05D0B8002CE4B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488583371F05D0B8002CE4B0 /* AppDelegate.swift */; };
+		4885833A1F05D0B8002CE4B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488583391F05D0B8002CE4B0 /* ViewController.swift */; };
+		4885833C1F05D0B8002CE4B0 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885833B1F05D0B8002CE4B0 /* Document.swift */; };
+		4885833E1F05D0B8002CE4B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4885833D1F05D0B8002CE4B0 /* Assets.xcassets */; };
+		488583411F05D0B8002CE4B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4885833F1F05D0B8002CE4B0 /* Main.storyboard */; };
+		48ED464E1F06F4DF00E29B53 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 48ED464D1F06F4DF00E29B53 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		487BDE8D1F0598D200D05357 /* LeakyDocumentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeakyDocumentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		487BDE8D1F0598D200D05357 /* LeakyDocObj-CDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeakyDocObj-CDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		487BDE901F0598D300D05357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		487BDE911F0598D300D05357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		487BDE931F0598D300D05357 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -28,10 +34,26 @@
 		487BDE9E1F0598D300D05357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		487BDE9F1F0598D300D05357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		487BDEA11F0598D300D05357 /* LeakyDocumentDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeakyDocumentDemo.entitlements; sourceTree = "<group>"; };
+		488583351F05D0B8002CE4B0 /* LeakyDocSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeakyDocSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		488583371F05D0B8002CE4B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		488583391F05D0B8002CE4B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4885833B1F05D0B8002CE4B0 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		4885833D1F05D0B8002CE4B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		488583401F05D0B8002CE4B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		488583421F05D0B8002CE4B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488583431F05D0B8002CE4B0 /* LeakyDocumentSwiftDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeakyDocumentSwiftDemo.entitlements; sourceTree = "<group>"; };
+		48ED464D1F06F4DF00E29B53 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		487BDE8A1F0598D200D05357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488583321F05D0B8002CE4B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,7 +66,9 @@
 		487BDE841F0598D200D05357 = {
 			isa = PBXGroup;
 			children = (
-				487BDE8F1F0598D200D05357 /* LeakyDocumentDemo */,
+				48ED464D1F06F4DF00E29B53 /* README.md */,
+				487BDE8F1F0598D200D05357 /* LeakyDocObj-CDemo */,
+				488583361F05D0B8002CE4B0 /* LeakyDocSwiftDemo */,
 				487BDE8E1F0598D200D05357 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +76,13 @@
 		487BDE8E1F0598D200D05357 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				487BDE8D1F0598D200D05357 /* LeakyDocumentDemo.app */,
+				487BDE8D1F0598D200D05357 /* LeakyDocObj-CDemo.app */,
+				488583351F05D0B8002CE4B0 /* LeakyDocSwiftDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		487BDE8F1F0598D200D05357 /* LeakyDocumentDemo */ = {
+		487BDE8F1F0598D200D05357 /* LeakyDocObj-CDemo */ = {
 			isa = PBXGroup;
 			children = (
 				487BDE901F0598D300D05357 /* AppDelegate.h */,
@@ -72,15 +97,29 @@
 				487BDE9F1F0598D300D05357 /* main.m */,
 				487BDEA11F0598D300D05357 /* LeakyDocumentDemo.entitlements */,
 			);
-			path = LeakyDocumentDemo;
+			path = "LeakyDocObj-CDemo";
+			sourceTree = "<group>";
+		};
+		488583361F05D0B8002CE4B0 /* LeakyDocSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				488583371F05D0B8002CE4B0 /* AppDelegate.swift */,
+				488583391F05D0B8002CE4B0 /* ViewController.swift */,
+				4885833B1F05D0B8002CE4B0 /* Document.swift */,
+				4885833D1F05D0B8002CE4B0 /* Assets.xcassets */,
+				4885833F1F05D0B8002CE4B0 /* Main.storyboard */,
+				488583421F05D0B8002CE4B0 /* Info.plist */,
+				488583431F05D0B8002CE4B0 /* LeakyDocumentSwiftDemo.entitlements */,
+			);
+			path = LeakyDocSwiftDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		487BDE8C1F0598D200D05357 /* LeakyDocumentDemo */ = {
+		487BDE8C1F0598D200D05357 /* LeakyDocObj-CDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 487BDEA41F0598D300D05357 /* Build configuration list for PBXNativeTarget "LeakyDocumentDemo" */;
+			buildConfigurationList = 487BDEA41F0598D300D05357 /* Build configuration list for PBXNativeTarget "LeakyDocObj-CDemo" */;
 			buildPhases = (
 				487BDE891F0598D200D05357 /* Sources */,
 				487BDE8A1F0598D200D05357 /* Frameworks */,
@@ -90,9 +129,26 @@
 			);
 			dependencies = (
 			);
-			name = LeakyDocumentDemo;
+			name = "LeakyDocObj-CDemo";
 			productName = LeakyDocumentDemo;
-			productReference = 487BDE8D1F0598D200D05357 /* LeakyDocumentDemo.app */;
+			productReference = 487BDE8D1F0598D200D05357 /* LeakyDocObj-CDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		488583341F05D0B8002CE4B0 /* LeakyDocSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488583441F05D0B8002CE4B0 /* Build configuration list for PBXNativeTarget "LeakyDocSwiftDemo" */;
+			buildPhases = (
+				488583311F05D0B8002CE4B0 /* Sources */,
+				488583321F05D0B8002CE4B0 /* Frameworks */,
+				488583331F05D0B8002CE4B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeakyDocSwiftDemo;
+			productName = LeakyDocumentSwiftDemo;
+			productReference = 488583351F05D0B8002CE4B0 /* LeakyDocSwiftDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,11 +157,25 @@
 		487BDE851F0598D200D05357 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Jerry;
 				TargetAttributes = {
 					487BDE8C1F0598D200D05357 = {
 						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					488583341F05D0B8002CE4B0 = {
+						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -122,7 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				487BDE8C1F0598D200D05357 /* LeakyDocumentDemo */,
+				487BDE8C1F0598D200D05357 /* LeakyDocObj-CDemo */,
+				488583341F05D0B8002CE4B0 /* LeakyDocSwiftDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +208,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		488583331F05D0B8002CE4B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4885833E1F05D0B8002CE4B0 /* Assets.xcassets in Resources */,
+				488583411F05D0B8002CE4B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -146,8 +226,19 @@
 			files = (
 				487BDE981F0598D300D05357 /* Document.m in Sources */,
 				487BDE951F0598D300D05357 /* ViewController.m in Sources */,
+				48ED464E1F06F4DF00E29B53 /* README.md in Sources */,
 				487BDEA01F0598D300D05357 /* main.m in Sources */,
 				487BDE921F0598D300D05357 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488583311F05D0B8002CE4B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4885833A1F05D0B8002CE4B0 /* ViewController.swift in Sources */,
+				488583381F05D0B8002CE4B0 /* AppDelegate.swift in Sources */,
+				4885833C1F05D0B8002CE4B0 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +249,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				487BDE9C1F0598D300D05357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4885833F1F05D0B8002CE4B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488583401F05D0B8002CE4B0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -268,10 +367,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LeakyDocumentDemo/LeakyDocumentDemo.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4MAMECY9VS;
-				INFOPLIST_FILE = LeakyDocumentDemo/Info.plist;
+				INFOPLIST_FILE = "LeakyDocObj-CDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sheepsystems.LeakyDocumentDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,13 +380,43 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LeakyDocumentDemo/LeakyDocumentDemo.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4MAMECY9VS;
-				INFOPLIST_FILE = LeakyDocumentDemo/Info.plist;
+				INFOPLIST_FILE = "LeakyDocObj-CDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sheepsystems.LeakyDocumentDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		488583451F05D0B8002CE4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MAMECY9VS;
+				INFOPLIST_FILE = LeakyDocSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheepsystems.LeakyDocumentSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		488583461F05D0B8002CE4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MAMECY9VS;
+				INFOPLIST_FILE = LeakyDocSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheepsystems.LeakyDocumentSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -304,13 +432,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		487BDEA41F0598D300D05357 /* Build configuration list for PBXNativeTarget "LeakyDocumentDemo" */ = {
+		487BDEA41F0598D300D05357 /* Build configuration list for PBXNativeTarget "LeakyDocObj-CDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				487BDEA51F0598D300D05357 /* Debug */,
 				487BDEA61F0598D300D05357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488583441F05D0B8002CE4B0 /* Build configuration list for PBXNativeTarget "LeakyDocSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488583451F05D0B8002CE4B0 /* Debug */,
+				488583461F05D0B8002CE4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
